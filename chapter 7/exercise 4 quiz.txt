@@ -1,0 +1,49 @@
+Odczytywanie pliku tekstowego
+Jakiej metody u¿yjesz aby odczytaæ ca³y wiersz pliku tekstowego? 
+1: .read()
+2: .read(99)
+3: .readline()
+4: .readlines()
+3
+Dostêpy do pliku
+Jakiego trybu powinieneœ u¿yæ jeœli chcesz TYLKO dopisaæ nowe dane na koñcu pliku? 
+1: w
+2: r+
+3: a
+4: w+
+3
+Œcie¿ka do pliku
+Wska¿ B£ÊDN¥ œcie¿kê do pliku. 
+1: "C:\Program Files (x86)\Python36-32\program1.py"
+2: "C:/Program Files (x86)/Python36-32/program1.py"
+3: "C:\\Program Files (x86)\\Python36-32\\program1.py"
+  
+1
+Typy wyj¹tków
+Jaki typ wyj¹tku wyst¹pi gdy przy indeksowaniu sekwencji wska¿emy na nieistniej¹cy element? 
+1: IOError
+2: IndexError
+3: KeyError
+4: NameError
+2
+B³ad w kodzie
+Jaki b³¹d wywo³a kod: / a = "123mama"/ b = int(a)
+1: SyntaxError
+2: TypeError
+3: ValueError
+4: AttributeError
+3
+Kolejny b³ad w kodzie
+Jaki b³¹d wywo³a kod: / a = [1, 2, 3]/ b = int(a)
+1: SyntaxError
+2: TypeError
+3: ValueError
+4: AttributeError
+2
+Obs³uga wielu wyj¹tków
+Jak zapiszesz wykonanie tego samego bloku kodu gdy mo¿e wyst¹piæ jeden z dwóch typów wyj¹tków? 
+1: except IndexError, KeyError:
+2: except IndexError or KeyError:
+3: except IndexError and KeyError:
+4: except (IndexError, KeyError):
+4
